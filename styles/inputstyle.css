@@ -1,0 +1,76 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+	background-image: url("../images/background.jpg");
+	left: 0px;
+	top: 0px;
+}
+.header {
+	width: 40%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #292258;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	text-shadow: 2px 2px 4px #000000;
+}
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: #FFFFCC;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+	background: #FFFFCC;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	text-shadow: 2px 2px 4px #000000;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	background: #FFFFCC;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #292258;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #FF3333; 
+	color: #FF3333; 
+	background: #CCCCFF; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.sign{
+	color: #292258;
+	text-decoration: none;
+}
+.back{
+	display: inline-block;
+}

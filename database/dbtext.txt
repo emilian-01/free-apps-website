@@ -1,0 +1,28 @@
+create schema freeapps;
+create table users(
+	u_id serial not null,
+	username varchar(30),
+	password varchar(30),
+	usertype varchar(30),
+	name varchar(30),
+	surname VARCHAR(30),
+	email varchar(30),
+	primary key (u_id)
+);
+create table apps(
+	a_id serial not null,
+	a_name varchar(30),
+	description varchar(1000),
+	link varchar(2000),
+	category varchar(50),
+	primary key(a_id)
+);
+create table favs(
+	f_id serial not null,
+	primary key(f_id),
+	f_u_id bigint unsigned not null,
+	f_a_id bigint unsigned not null,
+	foreign key (f_u_id) references users(u_id),
+	foreign key (f_a_id) references apps(a_id)
+
+);
